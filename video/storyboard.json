@@ -1,0 +1,158 @@
+{
+  "note": "3-minute demo movie. Replace dataset:FILM_* with the real rollout folder names after filming (./film_policy.sh). Top camera only.",
+  "scenes": [
+    {
+      "type": "card",
+      "duration": 5,
+      "title": "見て、つかんで、片付ける\nロボットアーム SO101",
+      "text": "家庭や倉庫の片付けロボットをめざして ・ 模倣学習(LeRobot) ・ ID:Y-ORIHARA"
+    },
+    {
+      "type": "clip",
+      "file": "dataset:rollout_dp_patternA_20261025_071030",
+      "episode": 0,
+      "start": 0,
+      "end": 30,
+      "speed": 3.0,
+      "caption": "人がお手本を見せるだけで、ロボットが自分でスポンジを片付ける(2倍速)",
+      "real_s": 45
+    },
+    {
+      "type": "card",
+      "duration": 7,
+      "title": "仕組み",
+      "text": "① 人がリーダーアームで操作して、お手本を録画する\n② AI(ACT)が「カメラ映像 → 腕の動き」を学習する\n③ ロボットが、カメラを見ながら自分で動く"
+    },
+    {
+      "type": "image",
+      "duration": 7,
+      "file": "assets/layout_video.png",
+      "caption": "3×3 のマス①〜⑨にスポンジを置き、上と手首の2台のカメラで見る"
+    },
+    {
+      "type": "clip",
+      "file": "dataset:so101_p3A_s1",
+      "episode": 0,
+      "start": 0,
+      "end": 24,
+      "speed": 2.0,
+      "caption": "お手本の録画:人がリーダーアームを操作(2倍速)",
+      "crop_left": 185
+    },
+    {
+      "type": "card",
+      "duration": 6,
+      "title": "最初の挑戦(10月18日)",
+      "text": "学習の誤差は小さいのに、スポンジのない場所へ手を伸ばした"
+    },
+    {
+      "type": "clip",
+      "file": "dataset:rollout_oldfail_20261024_194539",
+      "episode": 0,
+      "start": 0,
+      "end": 24,
+      "speed": 2.0,
+      "placeholder_duration": 10,
+      "todo": "旧モデル(上カメラのみ・5回分)の失敗\n./film_policy.sh so101_pick_20261018_195353 oldfail 2 30",
+      "caption": "旧モデル:スポンジの位置を見ていない",
+      "real_s": 30
+    },
+    {
+      "type": "card",
+      "duration": 10,
+      "title": "原因を調べて、データを作り直す",
+      "text": "・入力を入れ替える実験で、モデルが「腕の姿」ばかり見ていると判明\n・手首カメラを追加して、つかむ瞬間を大きく映す\n・スポンジは1個、3×3のマスで計画的に置き場所を変える\n・手が映った回や、片付け残しの回は除外する"
+    },
+    {
+      "type": "image",
+      "duration": 8,
+      "file": "assets/grid_success_2cam29.png",
+      "caption": "1個の片付け:9マス中 13/29 回成功(以前は成功なし)"
+    },
+    {
+      "type": "card",
+      "duration": 6,
+      "title": "次の挑戦:3個を続けて片付ける",
+      "text": "自由に並べると、1個も取れなかった"
+    },
+    {
+      "type": "image",
+      "duration": 8,
+      "file": "assets/between_grasp.png",
+      "caption": "ランダムな並べ方では、2つのスポンジの「間」をつかんでしまう(記録では20回中15回)"
+    },
+    {
+      "type": "image",
+      "duration": 11,
+      "file": "assets/multimodal.png",
+      "caption": "なぜ「間」をつかむのか:ACT は2つの答えの中間に寄ってしまう(講義 第3回・第7回)"
+    },
+    {
+      "type": "card",
+      "duration": 8,
+      "title": "対策①:並べ方を絞り、苦手な場所を補強",
+      "text": "・並べ方を4つのパターンに絞り、取る順番をはっきりさせる\n・苦手だった奥の列のお手本を10回だけ追加する"
+    },
+    {
+      "type": "clip",
+      "file": "dataset:rollout_patternD_20261024_195205",
+      "episode": 0,
+      "start": 0,
+      "end": 22,
+      "speed": 2.0,
+      "placeholder_duration": 14,
+      "todo": "奥の列(⑦⑧⑨)の成功シーン\n./film_policy.sh so101_all112_ft patternD 3 45",
+      "caption": "奥の列:3個とも片付けた回 0/5 → 4/5(お手本10回の追加で)",
+      "real_s": 45
+    },
+    {
+      "type": "card",
+      "duration": 9,
+      "title": "対策②:モデルを Diffusion Policy に変える",
+      "text": "ノイズから行動を少しずつ作る「生成モデル」の方策\n答えが2つある場面でも、中間に寄らずどちらか1つを選ぶ\n(講義 第3回・第7回の「多峰性」の話)"
+    },
+    {
+      "type": "compare",
+      "speed": 2.5,
+      "caption": "同じデータ・同じ並べ方:ACT はつかみ損ねを繰り返し1個残る / Diffusion Policy は3個とも片付け",
+      "left": {
+        "label": "ACT",
+        "file": "dataset:rollout_act348_20261025_082954",
+        "episode": 0,
+        "start": 0,
+        "end": 34.5,
+        "real_s": 35
+      },
+      "right": {
+        "label": "Diffusion Policy",
+        "file": "dataset:rollout_dp_rand348_20261025_072845",
+        "episode": 0,
+        "start": 0,
+        "end": 33,
+        "real_s": 45
+      }
+    },
+    {
+      "type": "clip",
+      "file": "dataset:rollout_pick4_20261025_215025",
+      "episode": 1,
+      "start": 0,
+      "end": 41,
+      "real_s": 70,
+      "speed": 4.0,
+      "caption": "Diffusion Policy:3個のお手本だけで学習したのに、4個でも全部片付けた"
+    },
+    {
+      "type": "card",
+      "duration": 11,
+      "title": "結果:多峰性の問題を Diffusion Policy で解決",
+      "text": "同じデータ・同じ4つのランダム配置で、各20回\n「間」をつかんだ回:ACT 75% → Diffusion Policy 0%\n箱に入ったスポンジ:ACT 48% → Diffusion Policy 85%\n3個とも片付けた回:ACT 15% → Diffusion Policy 75%\n4〜9個でも全部片付けた回あり(5個以上は人が箱の中身を整理)\n\n同じデータのまま、答えを「選ぶ」モデルに変えると「間」の失敗が消えた"
+    },
+    {
+      "type": "card",
+      "duration": 3,
+      "title": "ご覧いただき、ありがとうございました",
+      "text": "ID:Y-ORIHARA ・ SO101 × LeRobot / 開発支援:Claude Code"
+    }
+  ]
+}

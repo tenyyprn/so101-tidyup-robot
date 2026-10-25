@@ -1,0 +1,10 @@
+date,model,training_data,cell,row,col,trials,success,sequence,note
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),1,near,left,2,2,OO,
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),2,near,center,2,2,OO,
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),3,near,right(base side),3,2,OXO,
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),4,middle,left,3,2,OXO,
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),5,middle,center,3,2,XOO,
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),6,middle,right(base side),7,0,XXXXXXX,next to the robot base
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),7,far,left,3,0,XXX,farthest reach
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),8,far,center,1,1,O,
+2026-10-22,act_so101_pick2cam_29,29 eps single sponge (top+wrist),9,far,right(base side),5,2,OXXXO,

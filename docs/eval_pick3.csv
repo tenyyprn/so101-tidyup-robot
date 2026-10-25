@@ -1,0 +1,124 @@
+date,model,training_data,pattern,trial,sponges_in_box,of,note
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),1,3,3,slightly jerky but succeeded (training running on the same GPU)
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),2,0,3,grasped empty air
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),3,1,3,only the first sponge
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),4,3,3,several retries then succeeded
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),5,3,3,succeeded in one go
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),6,3,3,succeeded in one go
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),7,3,3,succeeded in one go
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),8,3,3,succeeded in one go
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),9,2,3,third sponge failed
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),A (cells 1-2-3),10,1,3,ABORTED: stopped by a connection error (not a policy failure)
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),far row (cells 7-8-9; not a trained pattern),1,0,3,grasped empty air
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),far row (cells 7-8-9; not a trained pattern),2,0,3,grasped empty air
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),far row (cells 7-8-9; not a trained pattern),3,0,3,grasped empty air
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),far row (cells 7-8-9; not a trained pattern),4,0,3,grasped empty air
+2026-10-24,act_so101_all58,58 eps (1-sponge 39 + free 3-sponge 19),far row (cells 7-8-9; not a trained pattern),5,0,3,grasped empty air
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),A (cells 1-2-3),1,2,3,poor grasping on 2nd; ran out of time on 3rd
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),A (cells 1-2-3),2,3,3,succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),A (cells 1-2-3),3,3,3,succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),A (cells 1-2-3),4,3,3,succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),A (cells 1-2-3),5,3,3,succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),B (cells 1-4-7),1,3,3,succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),B (cells 1-4-7),2,3,3,succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),B (cells 1-4-7),3,3,3,succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),B (cells 1-4-7),4,3,3,re-grasped and succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),B (cells 1-4-7),5,1,3,re-grasped but failed
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),C (cells 3-5-7),1,1,3,re-grasp failed
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),C (cells 3-5-7),2,1,3,re-grasp failed
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),C (cells 3-5-7),3,2,3,re-grasp failed
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),C (cells 3-5-7),4,3,3,re-grasped and succeeded
+2026-10-24,act_so101_all94,94 eps (1-sponge 39 + free 3-sponge 28 + patterns A/B/C 27),C (cells 3-5-7),5,3,3,succeeded in one go
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),D far row (cells 7-8-9),1,3,3,re-grasped and succeeded; paused above the sponge and grasped slowly
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),D far row (cells 7-8-9),2,3,3,succeeded
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),D far row (cells 7-8-9),3,3,3,succeeded
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),D far row (cells 7-8-9),4,1,3,re-grasp failed
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),D far row (cells 7-8-9),5,3,3,re-grasped and succeeded
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),C (cells 3-5-7),1,3,3,succeeded
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),C (cells 3-5-7),2,1,3,re-grasp failed
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),C (cells 3-5-7),3,3,3,succeeded
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),C (cells 3-5-7),4,2,3,re-grasp failed
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),C (cells 3-5-7),5,3,3,succeeded
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),random (cells 2-4-8),1,2,3,could not pick cell 8
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),random (cells 3-4-8),2,1,3,grasped the empty space BETWEEN cells 4 and 8
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),random (cells 1-5-7),3,1,3,grasped the empty space BETWEEN cells 1 and 7
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),random (cells 2-5-9),4,2,3,could not pick cell 9 (unstable)
+2026-10-24,act_so101_all104_ft,104 eps (all94 + far-row pattern D 10; fine-tuned from all94 20k steps),random (cells 3-5-9),5,1,3,grasped the empty space BETWEEN cells 5 and 9
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),C (cells 3-5-7),1,2,3,re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),C (cells 3-5-7),2,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),C (cells 3-5-7),3,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),C (cells 3-5-7),4,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),C (cells 3-5-7),5,1,3,re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),A (cells 1-2-3),1,1,3,re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),A (cells 1-2-3),2,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),A (cells 1-2-3),3,3,3,re-grasped and succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),A (cells 1-2-3),4,3,3,re-grasped and succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),A (cells 1-2-3),5,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),B (cells 1-4-7),1,3,3,re-grasped and succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),B (cells 1-4-7),2,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),B (cells 1-4-7),3,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),B (cells 1-4-7),4,2,3,re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),B (cells 1-4-7),5,3,3,re-grasped and succeeded
+2026-10-24,smolvla_so101_all112,112 eps (same data as ACT-112; SmolVLA from smolvla_base 30k steps batch 8),random,1,0,3,aimed at ONE sponge (no between-grasp) but grasp failed
+2026-10-24,smolvla_so101_all112,112 eps (same data as ACT-112; SmolVLA from smolvla_base 30k steps batch 8),random,2,0,3,aimed at ONE sponge (no between-grasp) but grasp failed
+2026-10-24,smolvla_so101_all112,112 eps (same data as ACT-112; SmolVLA from smolvla_base 30k steps batch 8),random (2nd session),1,0,3,no sponge picked (2nd try; re-plan setting may have been STEPS=20)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-4-8),1,1,3,re-grasp failed; grasped BETWEEN sponges
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-4-8),2,1,3,same as trial 1 (re-grasp failed; between-grasp)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-4-8),3,2,3,same as trial 1 (re-grasp failed; between-grasp)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-4-8),4,3,3,re-grasped and succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-4-8),5,1,3,re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 3-4-8),1,2,3,re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 3-4-8),2,0,3,kept grasping BETWEEN sponges
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 3-4-8),3,2,3,re-grasp failed; grasped BETWEEN sponges
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 3-4-8),4,2,3,same as trial 3 (re-grasp failed; between-grasp)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 3-4-8),5,1,3,same as trial 3 (re-grasp failed; between-grasp)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 1-5-7),1,0,3,grasped BETWEEN sponges
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 1-5-7),2,1,3,same as trial 1 (between-grasp); re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 1-5-7),3,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 1-5-7),4,1,3,grasped BETWEEN sponges; re-grasp failed
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 1-5-7),5,3,3,succeeded
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-5-9),1,1,3,grasped BETWEEN sponges
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-5-9),2,1,3,same as trial 1 (between-grasp)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-5-9),3,0,3,same as trial 1 (between-grasp)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-5-9),4,2,3,same as trial 1 (between-grasp)
+2026-10-24,act_so101_all112_ft,112 eps (all104 + extra pattern C 8; fine-tuned from all104_ft 20k steps),random fixed (cells 2-5-9),5,2,3,same as trial 1 (between-grasp)
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),A (cells 1-2-3),1,3,3,succeeded
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),A (cells 1-2-3),2,1,3,re-grasp failed
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),A (cells 1-2-3),3,3,3,succeeded
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),A (cells 1-2-3),4,3,3,succeeded
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),A (cells 1-2-3),5,3,3,succeeded
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-4-8),1,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-4-8),2,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-4-8),3,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-4-8),4,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-4-8),5,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 3-4-8),1,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 3-4-8),2,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 3-4-8),3,2,3,one failed (time up); no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 3-4-8),4,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 3-4-8),5,3,3,succeeded; no empty/between grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 1-5-7),1,2,3,one left (time up); no empty grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 1-5-7),2,3,3,succeeded; no empty grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 1-5-7),3,3,3,re-grasped and succeeded; no empty grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 1-5-7),4,0,3,15 empty grasps right NEXT TO the near sponge (cell 1) - aimed at one sponge; kept missing; not a between-grasp (top-cam review); wrist cam had no freeze/USB drop
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 1-5-7),5,3,3,succeeded; slammed the gripper holding a sponge onto the table
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-5-9),1,2,3,one left (time up); no empty grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-5-9),2,0,3,12 empty grasps around ONE sponge (front) - missed it; hit the table; not a between-grasp (top-cam review)
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-5-9),3,3,3,succeeded; no empty grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-5-9),4,3,3,succeeded; no empty grasp
+2026-10-25,diffusion_so101_all112,112 eps (same data as ACT-112; Diffusion Policy 40k steps batch 32 DDIM10 n_action_steps16),random fixed (cells 2-5-9),5,3,3,slow start; 2 missed grasps; all 3 in box (time nearly up)
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only; no 4-sponge training),4 sponges (generalization test),1,4,4,all 4 in box; top-cam review (rollout_pick4_20261025_215025 ep0)
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only; no 4-sponge training),4 sponges (generalization test),2,4,4,all 4 in box; top-cam review (rollout_pick4_20261025_215025 ep1)
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only; no 4-sponge training),4 sponges (generalization test),3,4,4,all 4 in box; top-cam review (rollout_pick4_20261025_215025 ep2)
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only; no 5-sponge training),5 sponges (generalization test),1,5,5,all 5 in box but a person pressed the overflowing box contents down at ~37 s (assisted); rollout_pick5_20261025_220124 ep0
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only; no 5-sponge training),5 sponges (generalization test),2,4,5,4 in box; from ~38 s hovered over the last sponge (far left) until time up (80 s); ep1
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only; no 5-sponge training),5 sponges (generalization test),3,5,5,all 5 in box but a person pressed the box contents down at ~38 s (assisted); ep2
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only),6 sponges (generalization test; box emptied by hand during the run),1,6,6,all 6 cleared within ~70 s; rollout_pick6to9_20261025_221127 ep0
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only),7 sponges (generalization test; box emptied by hand during the run),1,7,7,all 7 cleared within ~70 s; ep1
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only),8 sponges (generalization test; box emptied by hand during the run),1,6,8,still picking steadily; 2 left at time up (~94 s); ep2
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only),9 sponges (generalization test; box emptied by hand during the run),1,6,9,still picking steadily; 3 left at time up (~94 s); ep3
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only),8 sponges (generalization test; box emptied by hand during the run),2,8,8,all 8 cleared (~72 s of recorded video / ~92 s real time); rollout_pick8to9_20261025_222934 ep0
+2026-10-25,diffusion_so101_all112,112 eps (3-sponge demos only),9 sponges (generalization test; box emptied by hand during the run),2,9,9,all 9 cleared from a full 3x3 grid (~90 s video / ~115 s real); ep1
+2026-10-25,act_so101_all112_ft,112 eps,random fixed (cells 2-5-9; refilmed for the video),6,1,3,run 1: 1 in box; 2 left; between-grasp near the left pair ~17-21 s (top-cam); rollout_act259_20261025_230214 ep0
+2026-10-25,act_so101_all112_ft,112 eps,random fixed (cells 2-5-9; refilmed for the video),7,1,3,run 2: came down BETWEEN the middle and front sponges at ~3 s and lifted empty; both stayed (video/assets/between_grasp.png); 1 in box; 2 left; ep1
+2026-10-25,act_so101_all112_ft,112 eps,random fixed (cells 2-5-9; refilmed for the video),8,1,3,run 3: repeated missed grasps near the front sponge; 2 left on the table at time up (box hidden by the arm in the last frame); ep2

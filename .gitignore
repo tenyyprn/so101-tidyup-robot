@@ -1,0 +1,21 @@
+# Python environment (rebuild with the steps in README)
+.venv/
+__pycache__/
+*.pyc
+
+# Trained models (tens of GB) and training logs
+outputs/
+logs/
+
+# Local review/demo renders (may show the room)
+review/
+demo/
+video/draft.mp4
+video/*.mp4
+
+# Device-specific calibration backups
+calibration_backup/
+
+# Early diagnostic scripts written before this project (not part of the submission)
+so101_*.py
+応用編１最終課題.md
