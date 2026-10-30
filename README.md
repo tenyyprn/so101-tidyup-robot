@@ -8,7 +8,11 @@ Physical AI 応用編1 最終課題。低価格ロボットアーム **SO101** �
 - ACT では、ランダムな並べ方で **2つのスポンジの「間」(何もない場所)をつかむ**失敗が 75% の回で起きた。答えが2つある場面(講義 第3回・第7回の「多峰性」)で、1つの行動しか出せない方策が中間に寄ったという仮説を立てた。
 - **同じデータで Diffusion Policy に変えると、「間」をつかむ失敗は 0% になり、箱に入ったスポンジは 48% から 85% に上がった。**
 
-デモ動画:https://youtu.be/zCo2obT3ASg
+- デモ動画:https://youtu.be/zCo2obT3ASg
+- コード:https://github.com/tenyyprn/so101-tidyup-robot
+- 学習済みモデル(Hugging Face):
+  - Diffusion Policy:https://huggingface.co/tenyyprn/so101-tidyup-diffusion
+  - ACT(比較用):https://huggingface.co/tenyyprn/so101-tidyup-act
 
 ## 結果
 
@@ -124,7 +128,7 @@ lerobot-edit-dataset --operation.type merge ...    # 4. 録画をまとめる
 
 ## 含まれていないもの
 
-録画データ(約 100 エピソード)、学習済みモデル(合計 約 28GB)、仮想環境は容量のため含めていない。
+録画データ(約 100 エピソード)と仮想環境は含めていない。録画データは手首カメラに部屋が映るため公開しない。学習済みモデル(合計 約 28GB)のうち、比較に使った2つ(Diffusion Policy と ACT-112)は上の Hugging Face で公開している。
 
 ## 参考文献
 
